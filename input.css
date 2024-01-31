@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: "satoshi";
+    }
+  }
+
+/* Content divs */
+.menu {
+  /* Your styles here */
+  display: none; /* Hide by default */
+}
+
+/* Active content div */
+.menu.active {
+  display: flex; /* Show when active */
+}
+/* Buttons */
+.button-menu{
+  /* Your styles here */
+}
+
+/* Buttons when active (clicked) */
+.active-btn {
+  color: black;
+}
+
+/* Buttons when focused (selected) */
+
